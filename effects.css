@@ -1,0 +1,19 @@
+#iconEffect {
+    transform: rotate(0deg);
+    transition:transform 0.5s;
+}
+
+#iconEffect:hover {
+    transform: rotate(20deg);
+    transition: transform 0.5s;
+}
+
+#iconEffectRight {
+    transform: rotate(0deg);
+    transition:transform 0.5s;
+}
+
+#iconEffectRight:hover {
+    transform: rotate(-20deg);
+    transition: transform 0.5s;
+}
