@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: jborgarts.com
+Token: 901620d49f90dbeda736f159995c963e607543629d035cb1aefb2c853bacc74b
