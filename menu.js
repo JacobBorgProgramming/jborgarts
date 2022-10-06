@@ -6,6 +6,6 @@ function menu(){
 
 
 
-    document.getElementById("foot1").innerHTML = '<a href="https://twitter.com/jborg_arts" target="_blank"><img id="iconEffect" src="./icons/twitter_line.png" width="80px"></a> <a href="https://www.linkedin.com/in/jacob-borg-94376b196/" target="_blank"><img id="iconEffectRight" src="./icons/linkedin_line.png" width="80px"></a>  <a href="https://www.instagram.com/jborg_arts/" target="_blank"> <img id="iconEffect" src="./icons/instagram_line.png" width="80px"> </a> <a rel="me" target="_blank" href="https://social.librem.one/@jborgarts"><img id="iconEffect" src="./icons/libremsocial.png" width="80px"></a>'
+    document.getElementById("foot1").innerHTML = '<a href="https://twitter.com/jborg_arts" target="_blank"><img id="iconEffect" src="./icons/twitter_line.png" width="80px"></a> <a href="https://www.linkedin.com/in/jacob-borg-94376b196/" target="_blank"><img id="iconEffectRight" src="./icons/linkedin_line.png" width="80px"></a>  <a href="https://www.instagram.com/jborg_arts/" target="_blank"> <img id="iconEffect" src="./icons/instagram_line.png" width="80px"> </a>'
 
 }
