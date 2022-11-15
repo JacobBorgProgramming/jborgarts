@@ -1,95 +1,149 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: #1a1a1a;">
+<html lang="en" style="font-family: 'Nanum Gothic', sans-serif;">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./uikit/css/uikit-rtl.css">
-    <link rel="stylesheet" href="./uikit/css/uikit-rtl.min.css">
-    <link rel="stylesheet" href="./uikit/css/uikit.css">
-    <link rel="stylesheet" href="./uikit/css/uikit.min.css">
-    <link rel="stylesheet" href="./effects.css">
-    <script src="./uikit/js/uikit.js"></script>
-    <script src="./uikit/js/uikit.min.js"></script>
-    <script src="./menu.js"></script>
-    <title>Jborgarts</title>
-
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>jborgarts</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
 </head>
 
-<header>
-    <div id="leftnav" style="position: fixed; top: 10px; left: 10px;">
-
-    </div>
-    <div id="rightnav" style="position: fixed; top: 10px; right: 10px;">
-
-    </div>
-
-</header>
-
-<body onload="menu()">
-
-    <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-color: #1a1a1a">
-
-        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-            <h1>Jacob Borg</h1>
-            <h4>Artist | Photographer | Developer</h4>
-
+<body style="font-family: 'Nanum Gothic', sans-serif;">
+    <!-- Start: Navbar Right Links (Dark) -->
+    <nav class="navbar navbar-dark navbar-expand-md py-3" style="background: #213242;">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><img src="assets/img/jb_new.png" width="70"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active link-light" href="design.html">Design.</a></li>
+                    <li class="nav-item text-light"><a class="nav-link link-light" href="photography.html">Photography.</a></li>
+                    <li class="nav-item text-light"><a class="nav-link link-light" href="code.html">Code.</a></li>
+                </ul>
+            </div>
         </div>
-        
-
-    
-    </div>
-
-
-    <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('portfolio/bcs-cover.jpg');">
-
-        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-            <h1> <a href="./art.html"><button class="uk-button uk-button-default uk-button-large">Art</button></a></h1>
-            <h4>Digital | Pencil | Ink</h4>
-
+    </nav><!-- End: Navbar Right Links (Dark) -->
+    <!-- Start: Hero Parallax -->
+    <section>
+        <!-- Start: Parallax Background -->
+        <div data-bss-parallax-bg="true" style="height: 600px;background-image: url(&quot;assets/img/aloevera.jpg&quot;);background-position: center;background-size: cover;">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                        <div style="max-width: 350px;color: #f5f5f5;">
+                            <h1 class="text-uppercase fw-bold text-white" style="font-family: 'Nanum Gothic ExtraBold';color: #f5f5f5;">Design.</h1>
+                            <h1 class="text-uppercase fw-bold text-white" style="font-family: 'Nanum Gothic ExtraBold';color: #f5f5f5;">Photography.</h1>
+                            <h1 class="text-uppercase fw-bold text-white" style="font-family: 'Nanum Gothic ExtraBold';color: #f5f5f5;">Code.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End: Parallax Background -->
+    </section><!-- End: Hero Parallax -->
+    <section style="padding-top: 20px;padding-bottom: 20px;">
+        <!-- Start: 1 Row 3 Columns -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="background: #213242;padding-top: 50px;padding-bottom: 50px;">
+                    <div style="color: #f5f5f5;">
+                        <h3 style="font-family: 'Nanum Gothic ExtraBold';">Design.</h3>
+                        <p>A visual communication science that bridges creativity with practicality.</p>
+                        <p><a href="#" style="color: #f5f5f5;">See the portfolio</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="background: #5E6A75;padding-top: 50px;padding-bottom: 50px;">
+                    <div style="color: #f5f5f5;">
+                        <h3 style="font-family: 'Nanum Gothic ExtraBold';">Photography.</h3>
+                        <p>A form of capturing the viewpoints of the artist.</p>
+                    </div>
+                    <p><a href="#" style="color: #f5f5f5;">See the portfolio</a></p>
+                </div>
+                <div class="col-md-4" style="background: #3B5875;padding-top: 50px;padding-bottom: 50px;">
+                    <div style="color: #f5f5f5;">
+                        <h3 style="font-family: 'Nanum Gothic ExtraBold';">Code.</h3>
+                        <p>The art of taking abstract and making it tangible.</p>
+                    </div>
+                    <p><a href="#" style="color: #f5f5f5;">See the portfolio</a></p>
+                </div>
+            </div>
+        </div><!-- End: 1 Row 3 Columns -->
+    </section><!-- Start: Hero Clean -->
+    <div class="container py-4 py-xl-5" style="background: #213242;color: #f5f5f5;">
+        <div class="row gy-4 gy-md-0">
+            <div class="col-md-6">
+                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/wave_socialicons_w.jpg"></div>
+            </div>
+            <div class="col-md-6 d-md-flex align-items-md-center">
+                <div style="max-width: 350px;">
+                    <h2 class="text-uppercase fw-bold">Wave digital ministries' logo</h2>
+                    <p class="my-3">This logo was formed to replace the ministry's less recognizable "Blue Wave" logo. The logo was formed to incorporate the ministry's faith and initials. The "W" forms an EKG wave and is encapsulated by a larger "C" to represent Christ.</p>
+                    <p><a href="#" style="color: #f5f5f5;">See the design portfolio</a></p>
+                </div>
+            </div>
         </div>
-        
-
-    
-    </div>
-
-    <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('portfolio/IMG_1579.jpg');">
-
-        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-            <h1> <a href="./photography.html"><button class="uk-button uk-button-default uk-button-large">Photography</button></a></h1>
-            <h4>Product | Nature | Portrait</h4>
-
+    </div><!-- End: Hero Clean -->
+    <!-- Start: Hero Clean Reverse -->
+    <div class="container py-4 py-xl-5" style="background: #5e6a75;color: #f5f5f5;">
+        <div class="row gy-4 gy-md-0">
+            <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                <div style="max-width: 350px;">
+                    <h2 class="text-uppercase fw-bold">Egg-Treme Ride</h2>
+                    <p class="my-3">Capturing movement of static objects.</p><a href="#" style="color: #f5f5f5;">See the photography portfolio</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/IMG_1489.jpg"></div>
+            </div>
         </div>
-        
-
-    
-    </div>
-
-    <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('portfolio/bcscloud_noicon.png');">
-
-        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-            <h1> <a href="./development.html"><button class="uk-button uk-button-default uk-button-large">Development</button></a></h1>
-            <h4>Web | MacOS | Linux</h4>
-
+    </div><!-- End: Hero Clean Reverse -->
+    <!-- Start: Hero Clean -->
+    <div class="container py-4 py-xl-5" style="background: #3b5875;color: #f5f5f5;">
+        <div class="row gy-4 gy-md-0">
+            <div class="col-md-6">
+                <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;" src="assets/img/otn_globe.png"></div>
+            </div>
+            <div class="col-md-6 d-md-flex align-items-md-center">
+                <div style="max-width: 350px;">
+                    <h2 class="text-uppercase fw-bold">OTN Website</h2>
+                    <p class="my-3">The Open Tea News website was designed using Bootstrap5 and uses a custom Content Management System (CMS). This CMS is designed for use on static web systems. This makes dynamic websites on low-cost static site hosts possible.</p>
+                    <p><a href="code.html" style="color: #f5f5f5;">See the code portfolio</a></p>
+                </div>
+            </div>
         </div>
-        
-
-    
-    </div>
-
-
-
-
-
+    </div><!-- End: Hero Clean -->
+    <!-- Start: Footer Clean -->
+    <footer class="text-center py-4" style="background: #213242;color: #f5f5f5;">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <ul class="list-inline">
+                        <li class="list-inline-item me-4" style="font-size: 35px;"><a href="https://twitter.com/jborg_arts" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter text-light">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                                </svg></a></li>
+                        <li class="list-inline-item me-4" style="font-size: 35px;"><a href="https://www.instagram.com/jborg_arts/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram text-light">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+                                </svg></a></li>
+                        <li class="list-inline-item me-4" style="font-size: 35px;"><a href="https://www.minds.com/jborg_arts/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb text-light">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path>
+                                    <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path>
+                                    <line x1="9.7" y1="17" x2="14.3" y2="17"></line>
+                                </svg></a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <p class="my-2">Copyright&nbsp;© 2022 Jacob Borg</p>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End: Footer Clean -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
-<footer style="text-align: center;">
-
-    <div id="foot1">
-
-    </div>
-    <p>Jacob Borg</p>
-
-</footer>
 </html>
