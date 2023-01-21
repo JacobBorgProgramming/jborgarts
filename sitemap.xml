@@ -1,30 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>/archive/about.html</loc>
+    </url>
+    <url>
+        <loc>/archive/art.html</loc>
+    </url>
+    <url>
+        <loc>/archive/blank.html</loc>
+    </url>
+    <url>
+        <loc>/archive/code.html</loc>
+    </url>
+    <url>
+        <loc>/archive/contact.html</loc>
+    </url>
+    <url>
+        <loc>/archive/design.html</loc>
+    </url>
+    <url>
+        <loc>/archive/</loc>
+    </url>
+    <url>
+        <loc>/archive/photography.html</loc>
+    </url>
+    <url>
+        <loc>/fineart/</loc>
+    </url>
+    <url>
+        <loc>/ink/BusinessCardsDec22.html</loc>
+    </url>
+    <url>
+        <loc>/ink/ChristmasCards.html</loc>
+    </url>
+    <url>
+        <loc>/ink/</loc>
+    </url>
+    <url>
+        <loc>/logofolio/</loc>
+    </url>
+    <url>
+        <loc>/logofolio/Oats&amp;Apples.html</loc>
+    </url>
+    <url>
+        <loc>/logofolio/OTN.html</loc>
+    </url>
+    <url>
+        <loc>/logofolio/RevolutionBrand.html</loc>
+    </url>
+    <url>
+        <loc>/logofolio/RosamondR.html</loc>
+    </url>
+    <url>
+        <loc>/logofolio/WDM.html</loc>
+    </url>
+    <url>
         <loc>/about.html</loc>
-    </url>
-    <url>
-        <loc>/art.html</loc>
-    </url>
-    <url>
-        <loc>/blank.html</loc>
-    </url>
-    <url>
-        <loc>/code.html</loc>
     </url>
     <url>
         <loc>/contact.html</loc>
     </url>
     <url>
-        <loc>/design.html</loc>
-    </url>
-    <url>
         <loc>/</loc>
-    </url>
-    <url>
-        <loc>/index-old.html</loc>
-    </url>
-    <url>
-        <loc>/photography.html</loc>
     </url>
 </urlset>
