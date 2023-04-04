@@ -95,10 +95,16 @@
                 <div class="modal-body">
                     <form data-bss-recipient="42d87927559992ea3a5a54c5a9688bcc" data-bss-redirect-url="index.html">
                         <!-- Start: Success Example -->
-                        <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Name"></div><!-- End: Success Example -->
+                        <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="What should I call you? " required=""></div><!-- End: Success Example -->
                         <!-- Start: Error Example -->
-                        <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email" placeholder="Email"></div><!-- End: Error Example -->
-                        <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="Message"></textarea></div>
+                        <div class="mb-3"><input class="form-control" type="email" id="email-2" name="ReplyMethod" placeholder="What's your @?" required="" minlength="3"></div><!-- End: Error Example --><select class="form-select" style="margin-bottom: 15px;" required="">
+                            <optgroup label="Reply method">
+                                <option value="email" selected="">Email</option>
+                                <option value="twitter">Twitter DM</option>
+                                <option value="gettr">Gettr DM</option>
+                            </optgroup>
+                        </select>
+                        <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="What do you want to say?" required=""></textarea></div>
                         <div><button class="btn btn-outline-dark d-block w-100" type="submit">Send </button></div>
                     </form>
                 </div>
