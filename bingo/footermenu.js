@@ -7,6 +7,6 @@ function footermenu(){
 
 function footermenu_new(){
 
-    document.getElementById("footermenu").innerHTML = '<div style="padding:25px; background-color: #fed000; margin-top:25px;"><center><p>© Jacob Borg 2024</p></center><ul class="nav justify-content-center"><li class="nav-item"><img src="./adamicon_BY_fav.png" width="70px" alt=""></li></ul><ul class="nav justify-content-center"><li class="nav-item"><a style="color:#1a1a1a;" class="nav-link" href="https://www.buymeacoffee.com/jborg_arts" target="_blank">Buy Me a Coffee</a></li><li class="nav-item"><a style="color:#1a1a1a;" class="nav-link" target="_blank" href="https://twitter.com/jborg_arts">Twitter</a></li><li class="nav-item"><a style="color:#1a1a1a;" class="nav-link" href="./privacy.html">Privacy</a></li></ul> </div>'
+    document.getElementById("footermenu").innerHTML = '<div style="padding:25px; background-color: #fed000; margin-top:25px;"><center><p></p></center><ul class="nav justify-content-center"><li class="nav-item"><img src="./adamicon_BY_fav.png" width="70px" alt=""></li></ul><ul class="nav justify-content-center"><li class="nav-item"><a style="color:#1a1a1a;" class="nav-link" href="https://www.buymeacoffee.com/jborg_arts" target="_blank">Buy Me a Coffee</a></li><li class="nav-item"><a style="color:#1a1a1a;" class="nav-link" target="_blank" href="https://twitter.com/jborg_arts">Twitter</a></li><li class="nav-item"><a style="color:#1a1a1a;" class="nav-link" href="./privacy.html">Privacy</a></li></ul> </div>'
 
 }
