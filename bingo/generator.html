@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="" class="dark_html" >
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeLab</title>
+    <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
+    <link rel="shortcut icon" href="./adamicon_BY.png" type="image/x-icon">
+    <link rel="stylesheet" href="./adam.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.1/dist/css/bootstrap.css">
+    <script src="./bootstrap-5.3.1/dist/js/bootstrap.js"></script>
+    <script src="./headermenu.js"></script>
+    <script src="./ADAM_MM.js"></script>
+    <script src="./ADAM.js"></script>
+    <script src="./adam_styles.js"></script>
+
+
+
+  </head>
+
+
+
+  <body  onload="headermenu_new(), footermenu_new(), versionm()">
+    <header>
+
+      <div id="topmenu_new">
+    <noscript>
+      <h3>Uh Oh!</h3>
+      <p>JavaScript is required in order to use ADAM.</p>
+      <p>ADAM is a web app built upon JavaScript and thus it is required.</p>
+    </noscript>
+      </div>
+    </header>
+    <!--Begin primary doc-->
+
+      <div class="container-sm d-flex justify-content-center">
+
+      <div class="meme" id="meme" style=" width: 50%; padding-top: 10px;">
+          <p hidden style="text-align: right; margin-top: -75px"><img id="watermark" src="" width="50px" alt=""> </p>
+      <div class="container-2">
+          <div class="">
+            <div class="content">
+              <div id="fontcontrol" style='font-family: "Oswald";'>
+              <div id="output"><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;">Type funny here</p></div>
+            </div>
+            </div>
+          </div>
+          <div>
+              <p>
+                <img class="memebg" width="100%" style="padding-left: 0px;padding-right: 0px;padding-bottom: 15px;" id="memebg"  src="./adamicon_BY_fav.png" alt="Output Image">
+              </p>
+            </div>
+        </div>
+      </div>
+      </div>
+
+
+      <div class="card container-md" style="width: 100%; margin-top:25px;">
+        <div class="card-body">
+          <h5 class="card-title">Meme Generator</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Version <span id="version"></span></h6>
+          <p class="card-text">
+            <a onclick="rd()"  class="btn btn-dark">
+              Make me a meme!
+            </a>
+          </p>
+          <div class="accordion accordion-flush container-sm" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Text Customization
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <p>
+                    <button class="btn btn-link" style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button>
+                    <button class="btn btn-link" style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button>
+                    <button class="btn btn-link" style='font-family: "OpenDyslexic Bold";' onclick="OpenDyslexic2()">Open Dyslexic</button>
+                  </p>
+                  <p>
+                    <button class="btn btn-link" style='font-family: "Oswald";' onclick="oswald2()">Oswald</button>
+                    <button class="btn btn-link" style='font-family: "Cyanotype";' onclick="Cyanotype2()">Cyanotype</button>
+                    <button class="btn btn-link" style='font-family: "American Text";' onclick="American2()">American</button>
+                  </p>
+                  <p>
+                    <input class="type-input" type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button class="btn btn-dark" onclick="change_size()">Set Size</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <center>
+            <p class="card-text">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href='./memelab.html' type="button" class="btn btn-dark">Border Text</a>
+              <a href='./memelab-classic.html' type="button" class="btn btn-dark">Classic</a>
+              <a href='./memelab-1x2.html' type="button" class="btn btn-warning">1x2</a>
+            </div>
+            </p>
+          </center>
+        </div>
+      </div>
+
+
+  </body>
+
+  <footer>
+
+
+    <script src="./footermenu.js"></script>
+    <div id="footermenu"></div>
+  </footer>
+
+  </html>

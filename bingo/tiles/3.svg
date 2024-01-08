@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1.13687e-13,-1210)">
+        <g id="Artboard4" transform="matrix(1,0,0,1,1.13687e-13,1210)">
+            <rect x="0" y="0" width="1250" height="250" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="1250" height="250"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.720461,0,0,2.77778,-69.8847,-347.222)">
+                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(65,191,179);"/>
+                </g>
+                <g transform="matrix(0.720461,0,0,2.77778,180.115,-347.222)">
+                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(43,140,131);"/>
+                </g>
+                <g transform="matrix(0.720461,0,0,2.77778,430.115,-347.222)">
+                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(65,191,179);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,-19.5,2)">
+                    <text x="50.223px" y="118.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">GCU growth</text>
+                    <g transform="matrix(40,0,0,40,187.469,158.811)">
+                    </g>
+                    <text x="101.531px" y="158.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">rates</text>
+                </g>
+                <g transform="matrix(1,0,0,1,230.5,2)">
+                    <text x="67.811px" y="118.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">Mentions</text>
+                    <g transform="matrix(40,0,0,40,208.416,158.811)">
+                    </g>
+                    <text x="80.584px" y="158.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">classes</text>
+                </g>
+                <g transform="matrix(1,0,0,1,480.5,2)">
+                    <text x="85.437px" y="78.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">Excited</text>
+                    <g transform="matrix(40,0,0,40,161.385,118.811)">
+                    </g>
+                    <g transform="matrix(40,0,0,40,172.897,118.811)">
+                    </g>
+                    <text x="59.861px" y="118.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">about ﬁrst</text>
+                    <text x="95.535px" y="158.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">day of</text>
+                    <g transform="matrix(40,0,0,40,201.033,198.811)">
+                    </g>
+                    <text x="87.967px" y="198.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">chapel</text>
+                </g>
+                <g transform="matrix(0.720461,0,0,2.77778,680.115,-347.222)">
+                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(43,140,131);"/>
+                </g>
+                <g transform="matrix(0.720461,0,0,2.77778,930.115,-347.222)">
+                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(65,191,179);"/>
+                </g>
+                <g transform="matrix(1,0,0,1,730.5,2)">
+                    <text x="50.584px" y="118.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">Pop culture</text>
+                    <g transform="matrix(40,0,0,40,225.848,158.811)">
+                    </g>
+                    <text x="63.152px" y="158.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">reference</text>
+                </g>
+                <g transform="matrix(1,0,0,1,980.5,2)">
+                    <g transform="matrix(40,0,0,40,245.936,138.811)">
+                    </g>
+                    <text x="43.064px" y="138.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">Water Break</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

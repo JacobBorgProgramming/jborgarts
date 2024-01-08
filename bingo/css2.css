@@ -1,0 +1,124 @@
+.dark_html{
+    font-family: "Roboto Mono";
+    font-size: 10pt;
+    background-color: #1a1a1a;
+    color: #03A63D;
+}
+
+.light_html{
+    font-family: "Roboto Mono";
+    font-size: 10pt;
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+
+
+#topmenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#foot{
+
+    bottom: 0px;
+    left: 0px;
+
+}
+
+/* Custom Green Button */
+.button.is-green {
+
+    background-color: transparent;
+    border-color: #03A63D;
+    color: #03A63D;
+  }
+
+  .button.is-green:hover, .button.is-success.is-hovered {
+    background-color: #03A63D;
+    border-color: #03A63D;
+    color: #fff;
+  }
+
+  /* End */
+
+
+   /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 10%;
+  }
+
+  .positioncontrol {
+    position: absolute;
+    top: 8px;
+    left: 0%;
+    width: 100%;
+  }
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+
+  }
+
+  /* Top right text */
+
+  /*.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }*/
+
+  .top-right {
+    position: absolute;
+    top: 25px;
+    right: 10%;
+  }
+
+  .top {
+    position: absolute;
+    top: 25px;
+    left: 10%;
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 25px;
+    left: 10%;
+  }
+  .center {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+  }
+
+
+.watermark{
+  opacity: 0.5;
+}
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 25px;
+    right: 16px;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
