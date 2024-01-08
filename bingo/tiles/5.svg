@@ -8,21 +8,6 @@
                 <rect x="0" y="0" width="1250" height="250"/>
             </clipPath>
             <g clip-path="url(#_clip1)">
-                <g transform="matrix(0.720461,0,0,2.77778,-69.8847,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(43,140,131);"/>
-                </g>
-                <g transform="matrix(0.720461,0,0,2.77778,180.115,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(65,191,179);"/>
-                </g>
-                <g transform="matrix(0.720461,0,0,2.77778,430.115,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(43,140,131);"/>
-                </g>
-                <g transform="matrix(0.720461,0,0,2.77778,930.115,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(43,140,131);"/>
-                </g>
-                <g transform="matrix(0.720461,0,0,2.77778,680.115,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(65,191,179);"/>
-                </g>
                 <g transform="matrix(1,0,0,1,-19.5,2)">
                     <text x="80.379px" y="78.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">&quot;We got</text>
                     <text x="59.178px" y="118.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">them right</text>
@@ -30,6 +15,20 @@
                     <g transform="matrix(40,0,0,40,237.654,198.811)">
                     </g>
                     <text x="51.346px" y="198.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">want them&quot;</text>
+                </g>
+                <g>
+                    <g transform="matrix(0.720461,0,0,2.77778,430.115,-347.222)">
+                        <path d="M444,125L444,215L97,215L97,125L444,125ZM437.06,126.8L103.94,126.8L103.94,213.2L437.06,213.2L437.06,126.8Z"/>
+                    </g>
+                    <g transform="matrix(0.720461,0,0,2.77778,-69.8847,-347.222)">
+                        <path d="M444,125L444,215L97,215L97,125L444,125ZM437.06,126.8L103.94,126.8L103.94,213.2L437.06,213.2L437.06,126.8Z"/>
+                    </g>
+                    <g transform="matrix(0.720461,0,0,2.77778,930.115,-347.222)">
+                        <path d="M444,125L444,215L97,215L97,125L444,125ZM437.06,126.8L103.94,126.8L103.94,213.2L437.06,213.2L437.06,126.8Z"/>
+                    </g>
+                    <g transform="matrix(1.46542,0,0,1,-1.66599e-13,-460)">
+                        <path d="M853,460L853,710L0,710L0,460L853,460ZM849.588,465L3.412,465L3.412,705L849.588,705L849.588,465Z"/>
+                    </g>
                 </g>
                 <g transform="matrix(1,0,0,1,230.5,2)">
                     <text x="110.057px" y="98.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">New</text>

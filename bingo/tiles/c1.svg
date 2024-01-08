@@ -8,20 +8,22 @@
                 <rect x="0" y="0" width="1250" height="250"/>
             </clipPath>
             <g clip-path="url(#_clip1)">
-                <g transform="matrix(0.720461,0,0,2.77778,-69.8847,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(43,140,131);"/>
-                </g>
-                <g transform="matrix(0.720461,0,0,2.77778,180.115,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(65,191,179);"/>
-                </g>
                 <g transform="matrix(0.720461,0,0,2.77778,430.115,-347.222)">
                     <rect x="97" y="125" width="347" height="90" style="stroke:rgb(43,140,131);stroke-width:0.49px;"/>
                 </g>
-                <g transform="matrix(0.720461,0,0,2.77778,930.115,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(43,140,131);"/>
-                </g>
-                <g transform="matrix(0.720461,0,0,2.77778,680.115,-347.222)">
-                    <rect x="97" y="125" width="347" height="90" style="fill:rgb(65,191,179);"/>
+                <g>
+                    <g transform="matrix(0.720461,0,0,2.77778,430.115,-347.222)">
+                        <path d="M444,125L444,215L97,215L97,125L444,125ZM437.06,126.8L103.94,126.8L103.94,213.2L437.06,213.2L437.06,126.8Z"/>
+                    </g>
+                    <g transform="matrix(0.720461,0,0,2.77778,-69.8847,-347.222)">
+                        <path d="M444,125L444,215L97,215L97,125L444,125ZM437.06,126.8L103.94,126.8L103.94,213.2L437.06,213.2L437.06,126.8Z"/>
+                    </g>
+                    <g transform="matrix(0.720461,0,0,2.77778,930.115,-347.222)">
+                        <path d="M444,125L444,215L97,215L97,125L444,125ZM437.06,126.8L103.94,126.8L103.94,213.2L437.06,213.2L437.06,126.8Z"/>
+                    </g>
+                    <g transform="matrix(1.46542,0,0,1,-1.66599e-13,-460)">
+                        <path d="M853,460L853,710L0,710L0,460L853,460ZM849.588,465L3.412,465L3.412,705L849.588,705L849.588,465Z"/>
+                    </g>
                 </g>
                 <g transform="matrix(1,0,0,1,230.5,2)">
                     <g transform="matrix(40,0,0,40,164.139,138.811)">
@@ -39,10 +41,10 @@
                     <text x="92.615px" y="158.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">Safet<tspan x="178.455px " y="158.811px ">y</tspan></text>
                 </g>
                 <g transform="matrix(1,0,0,1,480.5,2)">
-                    <text x="80.867px" y="115.459px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:72px;fill:rgb(43,140,131);">FREE</text>
+                    <text x="80.867px" y="115.459px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:72px;fill:white;">FREE</text>
                     <g transform="matrix(72,0,0,72,233.463,187.459)">
                     </g>
-                    <text x="55.537px" y="187.459px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:72px;fill:rgb(43,140,131);">SP<tspan x="127.115px 163.678px " y="187.459px 187.459px ">AC</tspan>E</text>
+                    <text x="55.537px" y="187.459px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:72px;fill:white;">SP<tspan x="127.115px 163.678px " y="187.459px 187.459px ">AC</tspan>E</text>
                 </g>
                 <g transform="matrix(1,0,0,1,730.5,2)">
                     <text x="67.811px" y="118.811px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:40px;">Mentions</text>
