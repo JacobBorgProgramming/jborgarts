@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jacob Borg</title>
+    <meta property="og:image" content="assets/img/borg_favicon.png">
+    <link rel="icon" type="image/png" sizes="1920x1920" href="assets/img/jb_stars.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top bg-dark py-3" style="margin: 25px;border-radius: 15px;box-shadow: 0px 0px 20px;background: #223843;" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html"><span><img data-bss-hover-animate="tada" src="assets/img/jb_logo.svg" width="100px"></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-4"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-4">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" data-bs-target="#modal-1" data-bs-toggle="modal">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div data-bss-parallax-bg="true" style="height: 600px;background: url(&quot;assets/img/sergey-zolkin-m9qMoh-scfE-unsplash.jpg&quot;) center / cover no-repeat;">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                        <div style="max-width: 350px;">
+                            <h1 class="text-uppercase fw-bold text-light">Inspiration Generator</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container d-flex flex-column align-items-center py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Inspiration Generator</h2>
+                <p class="text-start w-lg-50">Here lies an inspiration machine for practicing one's design skills. As a designer, I am always trying to hone my craft, and this inspiration generator is just one way I do so! Right now I am doing a "themed entertainment" project a day, and this generator is how I come up with each project!&nbsp;</p>
+                <section>
+                    <h3 style="padding-top: 25px;">Make Something new today!</h3>
+
+
+    <center><button class="btn btn-outline-primary" id="spinner" onclick="spun()" type="button" name="button">SPIN</button></center>
+    <p></p>
+<center>
+
+
+    <section class="mw5 mw7-ns center bg-light-gray pa3 ph5-ns">
+  <h5 id="title" class="mt0">Press "Spin" to get started!</h5>
+  <div class="lh-copy measure">
+    <div id="type"></div>
+    <div id="theme"></div>
+    <div id="style"></div>
+    <div id="attribute"></div>
+  </div>
+</section>
+</center>
+
+
+<script type="text/javascript">
+    var types = Array('Merch cart','Beverage cart','Snack cart','Store','Stage','Pavilion','Garden','Diner','Attraction entry','Park entry', 'Restroom');
+    var themes = Array('Viking','Underwater','High fantasy','Retro futurism','Futurism','Digital','Adventurer (Modern)','Adventurer (Golden age archeology)','Adventurer (Modern)','Cityscape (1920s)','Cityscape (1880s)', 'Wizardry','Space Opera','Space futurism', 'Space (modern)');
+    var styles = Array('Realistic','Whimsical','Fantastical');
+    var attributes = Array('Symmetrical','Asymmetrical','Symmetrical','Asymmetrical');
+    function spun() {
+
+      var type = types[Math.floor(Math.random()*types.length)];
+      console.log(type)
+      var theme = themes[Math.floor(Math.random()*themes.length)];
+      console.log(theme)
+      var style = styles[Math.floor(Math.random()*styles.length)];
+      console.log(style)
+      var attribute = attributes[Math.floor(Math.random()*attributes.length)];
+      console.log(attribute)
+      document.getElementById("title").innerHTML = 'Your next design:'
+      document.getElementById("type").innerHTML = '<b>Project Type: </b>'+type
+      document.getElementById("theme").innerHTML = '<b>Project Theme: </b>'+theme
+      document.getElementById("style").innerHTML = '<b>Project Style: </b>'+style
+      document.getElementById("attribute").innerHTML = '<b>Project Style: </b>'+attribute
+
+    }
+  </script>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer class="text-white bg-dark" style="background: #223843;">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6 text-white">Brands</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="https://cartoomb.com" target="_blank" style="color: #ffffff;">Cartoomb</a></li>
+                        <li><a href="https://www.wavedm.net" target="_blank" style="color: #ffffff;">WDM</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
+                    <h3 class="fs-6 text-white">About</h3>
+                    <ul class="list-unstyled">
+                        <li><a data-bs-target="#modal-1" data-bs-toggle="modal" style="color: #ffffff;" href="#">Hire Me</a></li>
+                        <li><a href="about.html" style="color: #ffffff;">My Bio</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
+                    <div class="fw-bold d-flex align-items-center mb-2"><span><img src="assets/img/jb_logo.svg" width="100px"></span></div>
+                    <p class="text-white copyright">Designer | Photographer | Author | Programmer</p>
+                    <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-dark">
+                                    <h4 class="modal-title">Skills</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <h1 class="text-dark">My Skills</h1>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-adobe" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M12.893 4.514l7.977 14a.993 .993 0 0 1 -.394 1.365a1.04 1.04 0 0 1 -.5 .127h-3.476l-4.5 -8l-2.5 4h1.5l2 4h-8.977c-.565 0 -1.023 -.45 -1.023 -1c0 -.171 .045 -.34 .13 -.49l7.977 -13.993a1.034 1.034 0 0 1 1.786 0z"></path>
+                                        </svg>&nbsp;Adobe Creative Suite</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-code" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M7 8l-4 4l4 4"></path>
+                                            <path d="M17 8l4 4l-4 4"></path>
+                                            <path d="M14 4l-4 16"></path>
+                                        </svg>&nbsp;Web development&nbsp;</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-calendar" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"></path>
+                                            <path d="M16 3v4"></path>
+                                            <path d="M8 3v4"></path>
+                                            <path d="M4 11h16"></path>
+                                            <path d="M11 15h1"></path>
+                                            <path d="M12 15v3"></path>
+                                        </svg>&nbsp;Event planning/execution</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-device-speaker" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"></path>
+                                            <path d="M12 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                                            <path d="M12 7l0 .01"></path>
+                                        </svg>&nbsp;Audio engineering</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-bulb" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7"></path>
+                                            <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3"></path>
+                                            <path d="M9.7 17l4.6 0"></path>
+                                        </svg>&nbsp;Lighting design/programming</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-ballpen" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M14 6l7 7l-4 4"></path>
+                                            <path d="M5.828 18.172a2.828 2.828 0 0 0 4 0l10.586 -10.586a2 2 0 0 0 0 -2.829l-1.171 -1.171a2 2 0 0 0 -2.829 0l-10.586 10.586a2.828 2.828 0 0 0 0 4z"></path>
+                                            <path d="M4 20l1.768 -1.768"></path>
+                                        </svg>&nbsp;Writing/copywriting</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-ease-in-out-control-points" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M17 20a2 2 0 1 0 4 0a2 2 0 0 0 -4 0z"></path>
+                                            <path d="M17 20h-2"></path>
+                                            <path d="M7 4a2 2 0 1 1 -4 0a2 2 0 0 1 4 0z"></path>
+                                            <path d="M7 4h2"></path>
+                                            <path d="M14 4h-2"></path>
+                                            <path d="M12 20h-2"></path>
+                                            <path d="M3 20c8 0 10 -16 18 -16"></path>
+                                        </svg>&nbsp;Animation</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-photo" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M15 8h.01"></path>
+                                            <path d="M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12z"></path>
+                                            <path d="M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5"></path>
+                                            <path d="M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3"></path>
+                                        </svg>&nbsp;Design</p>
+                                    <p class="text-dark" style="margin-bottom: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-users-group" style="margin-right: 5px;">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                                            <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1"></path>
+                                            <path d="M15 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                                            <path d="M17 10h2a2 2 0 0 1 2 2v1"></path>
+                                            <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+                                            <path d="M3 13v-1a2 2 0 0 1 2 -2h2"></path>
+                                        </svg>&nbsp;Teamwork</p>
+                                </div>
+                                <div class="modal-footer"><button class="btn btn-dark" type="button" data-bs-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-dark">
+                            <h4 class="modal-title">Contact Me</h4><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form data-bss-recipient="42d87927559992ea3a5a54c5a9688bcc" data-bss-subject="Website Form Submit"><input class="form-control" type="text" style="margin-bottom: 10px;" minlength="1" required="" placeholder="First Name"><input class="form-control" type="email" style="margin-bottom: 10px;" placeholder="@" required=""><textarea class="form-control" style="margin-bottom: 10px;" required="" placeholder="Your message"></textarea>
+                                <p class="text-center text-dark"><button class="btn btn-outline-primary" type="submit">Submit</button></p>
+                            </form>
+                        </div>
+                        <div class="modal-footer"><button class="btn btn-dark" type="button" data-bs-dismiss="modal">Close</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white d-flex justify-content-between align-items-center pt-3">
+                <p class="text-white mb-0">Copyright © 2025 Jacob Borg</p>
+                <ul class="list-inline mb-0" style="font-size: 20px;">
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/s/m5RpbN7" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-fiverr text-white">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M15 3h-2a6 6 0 0 0 -6 6h-3v4h3v8h4v-7h4v7h4v-11h-8v-1.033a1.967 1.967 0 0 1 2 -1.967h2v-4z"></path>
+                            </svg></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/jborg-arts/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-linkedin text-white">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                                <path d="M8 11l0 5"></path>
+                                <path d="M8 8l0 .01"></path>
+                                <path d="M12 16l0 -5"></path>
+                                <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

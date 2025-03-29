@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Design Challenger</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+
+  </head>
+  <body>
+    <center> <h1>Make something <i>new</i> today!</h1> </center>
+    <center><button id="spinner" onclick="spun()" type="button" name="button">SPIN</button></center>
+    <p></p>
+<center>
+
+
+    <section class="mw5 mw7-ns center bg-light-gray pa3 ph5-ns">
+  <h3 id="title" class="mt0">Press "Spin" to get started!</h3>
+  <div class="lh-copy measure">
+    <div id="type"></div>
+    <div id="theme"></div>
+    <div id="style"></div>
+  </div>
+</section>
+</center>
+  </body>
+
+  <script type="text/javascript">
+    var types = Array('Merch cart','Beverage cart','Snack cart','Store','Stage','Pavilion','Garden','Diner','Attraction entry','Park entry');
+    var themes = Array('Viking','Underwater','High fantasy','Retro futurism','Futurism','Digital','Adventurer (Modern)','Adventurer (Golden age archeology)','Adventurer (Modern)','Cityscape (1920s)','Cityscape (1880s)', 'Wizardry','Space Opera','Space futurism', 'Space (modern)');
+    var styles = Array('Realistic','Whimsical','Fantastical');
+
+    function spun() {
+
+      var type = types[Math.floor(Math.random()*types.length)];
+      console.log(type)
+      var theme = themes[Math.floor(Math.random()*themes.length)];
+      console.log(theme)
+      var style = styles[Math.floor(Math.random()*styles.length)];
+      console.log(style)
+      document.getElementById("title").innerHTML = 'Your next design:'
+      document.getElementById("type").innerHTML = '<b>Project Type: </b>'+type
+      document.getElementById("theme").innerHTML = '<b>Project Theme: </b>'+theme
+      document.getElementById("style").innerHTML = '<b>Project Style: </b>'+style
+
+    }
+  </script>
+
+</html>
