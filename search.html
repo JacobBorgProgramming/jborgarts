@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="dark">
+  <head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./search.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</head>
+
+<body onload="searching()" style="padding: 15px;">
+
+
+<section>
+
+    <div class="con1" style="background-image: url(./media/network2.jpg);background-position: center;">
+      <p style="padding:0mm;"></p>
+
+      <div>
+<script src="./search.js" charset="utf-8"></script>
+
+
+        <center style=""><input style="" class="form-control" type="search" id="myInput" onkeydown="searched()" onkeyup="myFunction()"  placeholder="Search my portfolio"><button hidden id="searchButt" style="margin-left: 5%;" onclick="searched()" class="buttonX_green" name="button">Search</button></center>
+        <div style="margin-top:15px" class="index">
+          <ul id="myUL" class="list-group" style="visibility: hidden; height: 0mm; overflow-y: hidden;">
+            <div id="tech">
+            <!--Index-->
+            <li><a class="list-group-item list-group-item-action" href="./sunglasses.html" target="_parent" rel="noreferrer">Sunglasses <p hidden>photographery editing adobe lighting photoshop lightroom affinity</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./livingphoto.html" target="_parent" rel="noreferrer">Life <p hidden>photographery editing adobe lighting photoshop lightroom affinity portrait studio</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./lego.html" target="_parent" rel="noreferrer">Lego <p hidden>photographery editing adobe lighting photoshop lightroom affinity product</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./dorm.html" target="_parent" rel="noreferrer">Dorm Life <p hidden>photographery editing adobe lighting photoshop lightroom affinity</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./cartoomb.html" target="_parent" rel="noreferrer">Cartoomb <p hidden>adobe affinity web design programming html css javascript js graphic design logo design branding design</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./blankspace.html" target="_parent" rel="noreferrer">Blank Space <p hidden>adobe affinity web design programming html css javascript js github graphic design logo design branding design</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./coffeecoffin.html" target="_parent" rel="noreferrer">Coffee Coffin <p hidden>adobe affinity graphic design logo design branding design marketing copywriting animation web animation 2d animation</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./cityview.html" target="_parent" rel="noreferrer">City View San Diego <p hidden>adobe affinity logo design graphic design group collaboration</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./wdm.html" target="_parent" rel="noreferrer">Wave Discipleship Ministries <p hidden>adobe affinity web design programming html css javascript js github graphic design logo design branding design social media</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./mrsam.html" target="_parent" rel="noreferrer">Mr. Sam <p hidden>adobe affinity character design writing</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./starfield.html" target="_parent" rel="noreferrer">Starfield Poster <p hidden>adobe affinity graphic design </p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./hswri.html" target="_parent" rel="noreferrer">HSWRI Social Posts <p hidden>adobe affinity graphic design social media</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./jethawksmodel.html" target="_parent" rel="noreferrer">Jet Hawks 3D Model <p hidden>autodesk maya cheetah 3d lighting design animation</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./cleanerwithdyson.html" target="_parent" rel="noreferrer">#CleanerWithDyson <p hidden>adobe affinity graphic design social media</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./octopuscart.html" target="_parent" rel="noreferrer">Octopus Cart <p hidden>affinity blender 3d cheetah experience theme graphic design graphic</p></a></li>
+            <li><a class="list-group-item list-group-item-action" href="./odinscart.html" target="_parent" rel="noreferrer">Odin's Cart <p hidden>affinity blender 3d cheetah experience theme graphic design graphic</p></a></li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--end-->
+          </ul>
+  </div>
+
+    </div>
+
+  <a href="#"  style="visibility: hidden;" id="topbutton" class="topbutton" hidden>Top</a>
+  <!--<li><a href="https://www.squarespace.com/" rel="noreferrer">placeholder.com/ <p name="SEO Content" hidden><p> <p class="pc_s">meta description</p></a></li>-->
+
+</section>
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
+</html>
