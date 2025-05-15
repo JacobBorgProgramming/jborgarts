@@ -66,7 +66,7 @@
 
 
 <script type="text/javascript">
-    var types = Array('Interactive (Educational)','Merch cart','Snack cart','Store','Stage','Pavilion','Garden','Diner','Attraction entry','Park entry', 'Washroom');
+    var types = Array('Interactive (Educational)','Merch cart','Snack cart','Store','Stage','Pavilion','Garden','Diner','Attraction entry','Park entry', 'Washroom',"Parade float");
     var themes = Array('Viking','Underwater','High fantasy','Retro futurism','Futurism','Digital','Adventurer (Modern)','Adventurer (Golden age archeology)','Adventurer (Modern)', 'Wizardry','Space Opera','Space futurism', 'Space (modern)', 'Old Testament','Ancient Roman','Ancient Greek','Ancient Egyptian','Lost Civilization');
     var styles = Array('Realistic','Whimsical','Fantastical');
     var attributes = Array('Symmetrical','Asymmetrical','Symmetrical','Asymmetrical');
@@ -183,6 +183,15 @@
 
 
         document.getElementById("brief").innerHTML = '<b>Project Brief: </b> This '+type+' is for a '+attractionType+'. This Washroom is to be created in a '+theme+', '+style+' style. An additional parameter is that it is to be '+attribute+'.'
+      }
+
+      if (type=='Parade float') {
+        var attractionTypes = Array('Self propelled float','Towed float','Bicycle','Horse drawn float');
+        var attractionType = attractionTypes[Math.floor(Math.random()*attractionTypes.length)];
+        console.log(attractionType)
+
+
+        document.getElementById("brief").innerHTML = '<b>Project Brief: </b> This '+type+' is for a '+attractionType+'. This Parade float is to be created in a '+theme+', '+style+' style. An additional parameter is that it is to be '+attribute+'.'
       }
 
 
